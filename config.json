@@ -1,0 +1,11 @@
+{
+    "path": "",
+    "link": "http://domain.tld/app.jar",
+    "package_name": "package",
+    "pretty_name": "Package",
+    "description": "Description",
+    "arch": "armel",
+    "maintainer": "Name Surname <example@domain.tld>",
+    "section": "user/other",
+    "homepage": "http://domain.tld"
+}

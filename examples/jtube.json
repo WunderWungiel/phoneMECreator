@@ -1,0 +1,11 @@
+{
+    "path": "jtube2.jar",
+    "link": "",
+    "package_name": "jtube",
+    "pretty_name": "JTube",
+    "description": "YouTube client for Java ME.",
+    "arch": "armel",
+    "maintainer": "Wunder Wungiel <dredlok706@yandex.com>",
+    "section": "user/network",
+    "homepage": "http://wunderwungiel.pl"
+}
