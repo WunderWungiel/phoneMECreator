@@ -1,6 +1,6 @@
 {
-    "path": "http://nnproject.cc/dl/jtube2.jar",
-    "link": "",
+    "path": "",
+    "link": "http://nnproject.cc/dl/jtube2.jar",
     "package_name": "jtube",
     "pretty_name": "JTube",
     "description": "YouTube client for Java ME.",
