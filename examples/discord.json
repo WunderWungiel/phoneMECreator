@@ -1,0 +1,11 @@
+{
+    "path": "",
+    "link": "http://146.59.80.3/discord_midp2.jar",
+    "package_name": "discord",
+    "pretty_name": "Discord",
+    "description": "Discord client for J2ME",
+    "arch": "armel",
+    "maintainer": "Wunder Wungiel <dredlok706@yandex.com>",
+    "section": "user/network",
+    "homepage": "http://wunderwungiel.pl"
+}

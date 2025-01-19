@@ -1,0 +1,11 @@
+{
+    "path": "",
+    "link": "http://nnproject.cc/dl/BingTranslate.jar",
+    "package_name": "bingtranslate",
+    "pretty_name": "Translate",
+    "description": "Translator app",
+    "arch": "armel",
+    "maintainer": "Wunder Wungiel <dredlok706@yandex.com>",
+    "section": "user/network",
+    "homepage": "http://wunderwungiel.pl"
+}

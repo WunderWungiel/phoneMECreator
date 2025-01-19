@@ -140,7 +140,7 @@ Architecture: {config['arch']}
 Maintainer: {config['maintainer']}
 Installed-Size: {size}
 Depends: cvm, unzip
-Section: ${config['section']}
+Section: {config['section']}
 Priority: optional
 Homepage: {config['homepage']}
 Description: {config['description']}
