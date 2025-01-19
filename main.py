@@ -75,10 +75,16 @@ def package():
     print(f"{green}JAR file extracted successfully.{reset}")
 
     version = None
+    icon_path = None
+
     with open("jar_tmp/META-INF/MANIFEST.MF", "r") as f:
         for line in f.readlines():
             if "MIDlet-Version" in line:
                 version = line.split(":")[1].strip()
+            elif "MIDlet-Icon" in line:
+                icon_path = line.split(":")[1].strip()
+                if icon_path.startswith("/"):
+                    icon_path = icon_path[1:]
 
     if not version:
         print(f"{red}Version string not found!{reset}")
@@ -86,7 +92,7 @@ def package():
 
     size = get_size()
 
-    subprocess.run(["magick", "jar_tmp/icon.png", "-trim", "icon80.png"])
+    subprocess.run(["magick", os.path.join("jar_tmp", icon_path) if icon_path else "default/icon.png", "-trim", "icon80.png"])
     subprocess.run(["magick", "icon80.png", "-resize",  "64x64^", "-gravity", "center", "-extent", "64x64", "-background", "transparent", "icon64.png"])
 
     print(f"{green}Icon converted successfully.{reset}")

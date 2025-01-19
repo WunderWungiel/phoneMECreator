@@ -1,0 +1,11 @@
+{
+    "path": "",
+    "link": "https://v4.crx.moe/next/latest.jar",
+    "package_name": "vk4me",
+    "pretty_name": "VK4ME",
+    "description": "VK client for Java ME.",
+    "arch": "armel",
+    "maintainer": "Wunder Wungiel <dredlok706@yandex.com>",
+    "section": "user/network",
+    "homepage": "http://wunderwungiel.pl"
+}
